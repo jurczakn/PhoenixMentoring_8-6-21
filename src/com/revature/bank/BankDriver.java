@@ -82,7 +82,7 @@ public class BankDriver {
 		return registerUser(username, fname, lname, phoneNumber);
 	}
 	
-	private static UserAccount registerUser(String username, String fname, String lname, String phoneNumber) {
+	public static UserAccount registerUser(String username, String fname, String lname, String phoneNumber) {
 		
 		UserAccount userAccount = new UserAccount(username, fname, lname, phoneNumber);
 
